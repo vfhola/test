@@ -9,6 +9,3 @@ spring:
   liquibase:
     enabled: true
     change-log: classpath:liquibase\liquibase-changeLog.xml
-
-liquibase:
-  change-log: classpath:liquibase\liquibase-changeLog.xml
