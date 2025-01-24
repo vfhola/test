@@ -1,0 +1,77 @@
+23:08:02.388 [main] INFO  org.example.Main - Starting Main using Java 21.0.5 with PID 11376 (C:\Users\mv.haliatsina\IdeaProjects\neogroup\target\classes started by mv.haliatsina in C:\Users\mv.haliatsina\IdeaProjects\neogroup)
+23:08:02.392 [main] INFO  org.example.Main - No active profile set, falling back to 1 default profile: "default"
+23:08:02.959 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+23:08:02.994 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 29 ms. Found 1 JPA repository interface.
+23:08:03.356 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+23:08:03.365 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+23:08:03.366 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+23:08:03.366 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+23:08:03.419 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+23:08:03.420 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 959 ms
+23:08:03.517 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+23:08:03.607 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@68e5c7ae
+23:08:03.608 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+23:08:03.710 [main] INFO  liquibase.database - Set default schema name to public
+23:08:04.024 [main] INFO  liquibase.changelog - Reading from public.databasechangelog
+23:08:04.063 [main] INFO  liquibase.ui - Database is up to date, no changesets to execute
+23:08:04.065 [main] INFO  liquibase.changelog - Reading from public.databasechangelog
+23:08:04.071 [main] INFO  liquibase.util - UPDATE SUMMARY
+23:08:04.071 [main] INFO  liquibase.util - Run:                          0
+23:08:04.071 [main] INFO  liquibase.util - Previously run:               1
+23:08:04.071 [main] INFO  liquibase.util - Filtered out:                 0
+23:08:04.071 [main] INFO  liquibase.util - -------------------------------
+23:08:04.071 [main] INFO  liquibase.util - Total change sets:            1
+23:08:04.072 [main] INFO  liquibase.util - Update summary generated
+23:08:04.073 [main] INFO  liquibase.command - Command execution complete
+23:08:04.134 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+23:08:04.168 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.4.Final
+23:08:04.187 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+23:08:04.378 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+23:08:04.438 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 16.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+23:08:04.975 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+23:08:04.978 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+23:08:05.291 [main] INFO  o.s.v.b.OptionalValidatorFactoryBean - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+23:08:05.581 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+23:08:05.593 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+23:08:05.600 [main] INFO  org.example.Main - Started Main in 3.62 seconds (process running for 4.553)
+23:08:05.610 [scheduling-1] INFO  o.e.service.SchedulerTimeService2 - Time add to queue. TimeModel(id=null, currentTime=2025-01-24T23:08:05.609332200)
+23:08:05.715 [scheduling-1] INFO  o.e.service.SchedulerTimeService - Time poll from queue. TimeModel(id=null, currentTime=2025-01-24T23:08:05.609332200)
+23:08:05.756 [scheduling-1] INFO  o.e.service.SchedulerTimeService - Time saved. TimeModel(id=262, currentTime=2025-01-24T23:08:05.609332200)
+23:08:06.628 [scheduling-1] INFO  o.e.service.SchedulerTimeService2 - Time add to queue. TimeModel(id=null, currentTime=2025-01-24T23:08:06.628328)
+23:08:06.782 [scheduling-1] INFO  o.e.service.SchedulerTimeService - Time poll from queue. TimeModel(id=null, currentTime=2025-01-24T23:08:06.628328)
+23:08:06.787 [scheduling-1] INFO  o.e.service.SchedulerTimeService - Time saved. TimeModel(id=263, currentTime=2025-01-24T23:08:06.628328)
+23:08:07.637 [scheduling-1] INFO  o.e.service.SchedulerTimeService2 - Time add to queue. TimeModel(id=null, currentTime=2025-01-24T23:08:07.637671700)
+23:08:07.806 [scheduling-1] INFO  o.e.service.SchedulerTimeService - Time poll from queue. TimeModel(id=null, currentTime=2025-01-24T23:08:07.637671700)
+23:08:07.811 [scheduling-1] INFO  o.e.service.SchedulerTimeService - Time saved. TimeModel(id=264, currentTime=2025-01-24T23:08:07.637671700)
+23:08:08.657 [scheduling-1] INFO  o.e.service.SchedulerTimeService2 - Time add to queue. TimeModel(id=null, currentTime=2025-01-24T23:08:08.657205100)
+23:08:08.828 [scheduling-1] INFO  o.e.service.SchedulerTimeService - Time poll from queue. TimeModel(id=null, currentTime=2025-01-24T23:08:08.657205100)
+23:08:08.831 [scheduling-1] INFO  o.e.service.SchedulerTimeService - Time saved. TimeModel(id=265, currentTime=2025-01-24T23:08:08.657205100)
+23:08:09.671 [scheduling-1] INFO  o.e.service.SchedulerTimeService2 - Time add to queue. TimeModel(id=null, currentTime=2025-01-24T23:08:09.671077500)
+23:08:09.845 [scheduling-1] INFO  o.e.service.SchedulerTimeService - Time poll from queue. TimeModel(id=null, currentTime=2025-01-24T23:08:09.671077500)
+23:08:09.851 [scheduling-1] INFO  o.e.service.SchedulerTimeService - Time saved. TimeModel(id=266, currentTime=2025-01-24T23:08:09.671077500)
+23:08:10.678 [scheduling-1] INFO  o.e.service.SchedulerTimeService2 - Time add to queue. TimeModel(id=null, currentTime=2025-01-24T23:08:10.678508500)
+23:08:10.864 [scheduling-1] INFO  o.e.service.SchedulerTimeService - Time poll from queue. TimeModel(id=null, currentTime=2025-01-24T23:08:10.678508500)
+23:08:10.868 [scheduling-1] INFO  o.e.service.SchedulerTimeService - Time saved. TimeModel(id=267, currentTime=2025-01-24T23:08:10.678508500)
+23:08:11.695 [scheduling-1] INFO  o.e.service.SchedulerTimeService2 - Time add to queue. TimeModel(id=null, currentTime=2025-01-24T23:08:11.695462100)
+23:08:11.876 [scheduling-1] INFO  o.e.service.SchedulerTimeService - Time poll from queue. TimeModel(id=null, currentTime=2025-01-24T23:08:11.695462100)
+23:08:11.879 [scheduling-1] INFO  o.e.service.SchedulerTimeService - Time saved. TimeModel(id=268, currentTime=2025-01-24T23:08:11.695462100)
+23:08:12.701 [scheduling-1] INFO  o.e.service.SchedulerTimeService2 - Time add to queue. TimeModel(id=null, currentTime=2025-01-24T23:08:12.701046700)
+23:08:12.891 [scheduling-1] INFO  o.e.service.SchedulerTimeService - Time poll from queue. TimeModel(id=null, currentTime=2025-01-24T23:08:12.701046700)
+23:08:12.894 [scheduling-1] INFO  o.e.service.SchedulerTimeService - Time saved. TimeModel(id=269, currentTime=2025-01-24T23:08:12.701046700)
+23:08:13.711 [scheduling-1] INFO  o.e.service.SchedulerTimeService2 - Time add to queue. TimeModel(id=null, currentTime=2025-01-24T23:08:13.710689700)
+23:08:13.916 [scheduling-1] INFO  o.e.service.SchedulerTimeService - Time poll from queue. TimeModel(id=null, currentTime=2025-01-24T23:08:13.710689700)
+23:08:13.919 [scheduling-1] INFO  o.e.service.SchedulerTimeService - Time saved. TimeModel(id=270, currentTime=2025-01-24T23:08:13.710689700)
+23:08:14.720 [scheduling-1] INFO  o.e.service.SchedulerTimeService2 - Time add to queue. TimeModel(id=null, currentTime=2025-01-24T23:08:14.720545400)
+23:08:22.042 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+23:08:22.055 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+23:08:44.946 [scheduling-1] ERROR o.e.service.SchedulerTimeService - HikariPool-1 - Connection is not available, request timed out after 30008ms (total=10, active=10, idle=0, waiting=0)
+23:08:44.948 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+23:08:44.950 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+23:08:44.953 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
