@@ -9,3 +9,9 @@ spring:
   liquibase:
     enabled: true
     change-log: classpath:liquibase\liquibase-changeLog.xml
+
+scheduler:
+  queue:
+    cron: "*/1 * * * * *"
+
+

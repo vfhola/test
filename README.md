@@ -27,4 +27,8 @@
 
 1. запускаем [docker-compose.yaml](docker-compose.yaml) для поднятия postgres
 2. стартуем [Main](src/main/java/org/example/Main.java)
- 
+
+## Замечания:
+1. Не получилось добавить тест для проверки работы при дисконнекте к БД.
+2. Добавлено хранение логов для просмотра после останова сервиса (папка logs в корне проекта)
+3. Добавлен [Swagger](http://localhost:8080/swagger-ui/index.html) для удобства работы с web
